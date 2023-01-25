@@ -43,9 +43,43 @@ items[4].style.fontWeight = 'bold';
 
 
 
+
 //items.style.backgroundColor = '#f4f4f4';
 
 for(var i=0; i < items.length;i++){
     items[i].style.backgroundColor = 'f4f4f4';
 }
+
+// GETELEMENTSBYTAGNAME
+
+var li = document.getElementsByTagName('li');
+console.log(li);
+console.log(li[1]);
+li[1].textContent = 'Hello 2';
+li[1].style.fontWeight = 'bold';
+li[1].style.backgroundColor = 'yellow';
+
+items.style.backgroundColor = '#f4f4f4';
+
+for(var i=0; i < items.length;i++){
+    items[i].style.backgroundColor = 'f4f4f4';
+}
+
+
+
+
+var items = document.getElementsByClassName('tea-making-ingredient');
+console.log(ingredients);
+console.log(ingredients[1]);
+ingredients[1].textContent = 'milk';
+ingredients[0].style.fontWeight = 'bold';
+ingredients[1].style.fontWeight = 'bold';
+ingredients[1].style.backgroundColor = 'yellow';
+ingredients[2].style.fontWeight = 'bold';
+ingredients[2].style.backgroundColor = 'green';
+ingredients[3].style.fontWeight = 'bold';
+ingredients[4].style.fontWeight = 'bold';
+
+
+
 
